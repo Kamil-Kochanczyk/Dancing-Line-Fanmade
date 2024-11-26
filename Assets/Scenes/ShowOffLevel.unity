@@ -349,52 +349,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &558315010
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 558315012}
-  - component: {fileID: 558315013}
-  m_Layer: 0
-  m_Name: DancingTailSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &558315012
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558315010}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &558315013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558315010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9202f7384d6a0f247965fc0a1f898b23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dancingHead: {fileID: 113013866909583224}
-  _dancingTail: {fileID: 7929968718435102683, guid: 989c68168814a854c90a7fd76bf99f4c, type: 3}
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +500,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dancingHead: {fileID: 1969494763}
+--- !u!1001 &1820639430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5277588145985933796, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: _dancingHead
+      value: 
+      objectReference: {fileID: 113013866909583224}
+    - target: {fileID: 6525380592297229164, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_Name
+      value: DancingTailSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527479549279043484, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 30dfae6939becab4c9af7052905f616d, type: 3}
 --- !u!4 &1969494763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8519852320517260356, guid: a857f7b6342ddcb4ca44e5963fc2bf08, type: 3}
@@ -627,4 +642,4 @@ SceneRoots:
   - {fileID: 203844589}
   - {fileID: 317202060}
   - {fileID: 113013866909583223}
-  - {fileID: 558315012}
+  - {fileID: 1820639430}
